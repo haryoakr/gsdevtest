@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-express-mongodb",
+  "name": "nodejs-gsdevtest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -24,5 +24,15 @@
     "nodemailer": "^6.7.2",
     "passport": "^0.5.2",
     "passport-google-oidc": "^0.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haryoakr/gsdevtest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haryoakr/gsdevtest/issues"
+  },
+  "homepage": "https://github.com/haryoakr/gsdevtest#readme",
+  "description": ""
 }
